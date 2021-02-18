@@ -1,0 +1,122 @@
+/* Universal Selector */
+* {
+  margin:0px;
+  padding:0px;  
+  background-color: black;
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: crimson;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+header,
+footer {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background-color: black;
+}
+
+header {
+  position: fixed;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-top: 1px solid white;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 1px solid white;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid white;
+  color: white;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: fuchsia;
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+  border: 1px solid white;
+  margin: 5px;
+}
+
+
+a:hover{
+  color: aqua;
+}
+
+button:hover{
+  background-color: aqua;
+}
